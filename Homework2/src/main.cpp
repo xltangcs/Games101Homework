@@ -192,14 +192,14 @@ int main(int argc, const char** argv)
         if (!first)
         {
             first = true;
-            cv::imwrite("D:/Desktop/MSAA.jpg",image);
+            cv::imwrite("../picture/MSAA.jpg",image);
         }
 
         key = cv::waitKey(10);
 
         std::cout << "frame count: " << frame_count++ << '\n';
     }
-
+    
     return 0;
 }
 // clang-format on

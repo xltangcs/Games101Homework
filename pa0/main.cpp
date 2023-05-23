@@ -1,6 +1,6 @@
 #include<cmath>
-#include<Eigen/Core>
-#include<Eigen/Dense>
+#include<Eigen3/Eigen/Core>
+#include<Eigen3/Eigen/Dense>
 #include<iostream>
 
 using namespace std;
